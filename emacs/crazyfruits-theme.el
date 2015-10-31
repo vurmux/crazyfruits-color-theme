@@ -47,18 +47,4 @@
  '(next-error ((t (:inherit (region)))))
  '(query-replace ((t (:inherit (isearch))))))
 
-(font-lock-add-keywords 'python-mode
-    '(("[\\+\\=\\\\-\\*\\/\\!\\>\\<]" . font-lock-negation-char-face)))
-(font-lock-add-keywords 'python-mode
-    '(("[^a-zA-Z_]\\(\\-?[0-9]+\\)" 1 font-lock-constant-face)))
-(font-lock-add-keywords 'python-mode
-    '(("def " . font-lock-type-face)))
-(font-lock-add-keywords 'python-mode
-    '(("[\\\\(\\\\)\\{\\}]" . font-lock-function-name-face)))
-(font-lock-add-keywords 'python-mode
-    '(("\\[" . font-lock-function-name-face)))
-(font-lock-add-keywords 'python-mode
-    '(("\\]" . font-lock-function-name-face)))
-
-
 (provide-theme 'crazyfruits)
