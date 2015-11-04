@@ -8,15 +8,12 @@ Crazyfruits is a dark color scheme designed for long-time coding in GUI applicat
 ## Samples
 
 C++, Ubuntu Mono font:
-
 ![crazyfruits colors](https://github.com/vurmux/crazyfruits-color-theme/raw/master/img/cpp-ubuntu_mono.png)
 
 Python, Terminus font:
-
 ![crazyfruits colors](https://github.com/vurmux/crazyfruits-color-theme/raw/master/img/python-terminus.png)
 
 Clojure, Monospace font:
-
 ![crazyfruits colors](https://github.com/vurmux/crazyfruits-color-theme/raw/master/img/clojure-monospace.png)
 
 ## Editors/IDE links
