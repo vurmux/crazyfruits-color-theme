@@ -1,0 +1,30 @@
+let g:colors_name = "crazyfruits"
+
+"hi clear
+"if exists("syntax_on")
+"  syntax reset
+"endif
+
+
+
+hi Normal cterm=none ctermbg=none ctermfg=15 gui=none guibg=#221A20 guifg=#DECDAC
+
+hi Keyword          cterm=none ctermbg=none ctermfg=10          gui=none        guifg=#E8934b
+hi Comment          cterm=none ctermbg=none ctermfg=8           gui=none        guifg=#606060
+hi Constant         cterm=none ctermbg=none ctermfg=12          gui=none        guifg=#BF43BF
+hi PreProc          cterm=none ctermbg=none ctermfg=10          gui=none        guifg=#D33682
+hi String           cterm=none ctermbg=none ctermfg=3           gui=none        guifg=#E4E050
+hi Number           cterm=none ctermbg=none ctermfg=3           gui=none        guifg=#6565E0
+hi Underlined       cterm=none ctermbg=none ctermfg=magenta     gui=underline   guibg=#DECDAC
+hi Method           cterm=none ctermbg=none ctermfg=15          gui=none        guifg=#68d744
+
+
+hi Delimiter        cterm=none ctermbg=none ctermfg=15          gui=none        guifg=#FF0000
+hi Identifier       cterm=none ctermbg=none ctermfg=12          gui=none        guifg=#FF0000
+hi Structure        cterm=none ctermbg=none ctermfg=12          gui=none        guifg=#FF0000
+hi Ignore           cterm=none ctermbg=none ctermfg=8           gui=none        guifg=bg
+hi Type             cterm=none ctermbg=none ctermfg=12          gui=none        guifg=#FF0000
+hi Statement        cterm=none ctermbg=none ctermfg=10          gui=none        guifg=#FF0000
+hi Symbol           cterm=none ctermbg=none ctermfg=9           gui=none        guifg=#FF0000
+hi Interpolation    cterm=none ctermbg=none ctermfg=6           gui=none        guifg=#FF0000
+hi Special          cterm=none ctermbg=none ctermfg=6           gui=none        guifg=#FF0000
