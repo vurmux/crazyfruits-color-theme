@@ -1,3 +1,20 @@
+;;; crazyfruits-theme.el --- Dark-brown medium-contrast color scheme.
+
+;; Author: Andrey Voronov <vurmux@gmail.com>
+;; Version: 1.0
+;; Filename: crazyfruits-theme.el
+;; Package-Requires: ((emacs "24"))
+;; Keywords: theme, dark, medium contrast
+;; URL: https://github.com/vurmux/crazyfruits-color-theme
+
+;;; Commentary:
+
+;; A dark medium-contrast colorful theme for Emacs24.
+;; This color theme is designed for good code distinction with no high-contrast
+;; colors. Most colors here are in green-yellow-red slice.
+
+;;; Code:
+
 (deftheme crazyfruits
     "Dark-brown medium-contrast color scheme")
 
@@ -8,7 +25,7 @@
  '(escape-glyph ((t (:foreground "#e8341c"))))
  '(minibuffer-prompt ((t (:foreground "#e8341c"))))
  '(highlight ((t (:background "#004800"))))
- '(region ((t (:inverse-video t :foreground "#652555" :background "#300030"))))
+ '(region ((t (:inverse-video t :foreground "#807256" :background "#1b1812"))))
  '(shadow ((t (:foreground "#656565"))))
  '(secondary-selection ((t (:background "#073642"))))
  '(trailing-whitespace ((t (:inverse-video t :foreground "#dc322f" :background "red1"))))
